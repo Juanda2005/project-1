@@ -1,0 +1,244 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.logo{
+    text-decoration: none;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.conteiner{
+    max-width: 1400px;
+    margin: auto;
+}    
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    background-color: rgba(30,30,30,30);
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 32px;
+    width: 500px;
+    text-decoration: none;
+    font-weight: 700;
+    color: white
+}
+
+.navbar a {
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+    color: white;
+}
+
+header img{
+    height: 100px;
+    width: 125px;
+}
+
+
+header a:hover{
+    color: lightblue
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("images/vape.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero{
+    color: white;
+    font-size: 60px;
+    margin-top: 10vh;
+}
+
+#hero h2{
+    font-size: 20px;
+}
+
+#hero a{
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 5px 5px;
+    border-radius: 20px;
+    border: 2px solid rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: white;
+    background-color: blueviolet;
+    text-decoration: none;
+}
+
+#hero a:hover{
+    background-color: rgb(101, 33, 165);
+    cursor: pointer;
+} 
+
+#problematic h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+#problematic img{
+    width: 30%;
+    height: 30%;
+}
+
+#problematic{
+    text-align: center;
+    background-color: white;
+}
+
+#problematic p{
+    text-align: center;
+    font-size: 25px;
+}
+
+#tips{
+    background-color: rgba(30,30,30,30);
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+#tips{
+    padding: 10px;
+}
+
+#tips.conteiner{
+    padding: 150px 0px;
+}
+
+#tips h2{
+    margin-top: 0;
+}
+#tips h3{
+    font-size: 30px;
+}
+
+#tips p{
+    font-size: 20px;
+}
+
+#tips .card{
+    background-position: center center;
+    background-size: cover;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 15px
+}
+
+.card:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("https://filco.es/uploads/2019/01/smiley-2979107_1280-e1548934193372.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.card:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("https://c7.alamy.com/compes/2dyp7xh/deporte-mujer-actividad-vector-ilustracion-conjunto-dibujos-animados-activa-joven-mujer-deportiva-personaje-haciendo-ejercicio-de-fitness-con-pesas-ejercicios-de-estiramiento-de-entrenamiento-y-yoga-ciclismo-aislado-en-blanco-2dyp7xh.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.card:nth-child(3){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("https://lh5.googleusercontent.com/hthrYMiUYVxXak6MQFscUSu7MHUR61qQPeL0d0Lq4U5BH69tMmTlZfJYvrh_4QBpITpHQa9h-OMmVfUq0BiI_x2BF4eUeOz0Y6PK7R-A8hnFkJjii9B9uTCa0E3LUrnHGr8u37Etfb-yiTq7u2Cf3w");
+    background-position: center center;
+    background-size: cover;
+}
+
+.card:nth-child(4){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("https://thumbs.dreamstime.com/z/hombre-hablando-con-psic%C3%B3logo-en-sesi%C3%B3n-sentado-la-silla-psicoterapeuta-paciente-masculino-habla-psicoterapia-y-salud-mental-254742046.jpg?ct=jpeg");
+    background-position: center center;
+    background-size: cover;
+}
+
+.card:nth-child(5){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("https://www.3naves.com/img/articulos/111/definicion-de-metas.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+#evidence h2{
+    text-align: center;
+    padding: 5px;
+}
+
+.text p{
+    font-size: 40px;
+}
+
+#evidence{
+    text-align: center;
+    padding: 5px;
+}
+
+
+.text-1 h3{
+    text-align: center;
+    padding: 5px;
+}
+
+.text-2 h3{
+    text-align: center;
+    padding: 5px;
+}
+.text-3 h3{
+    text-align: center;
+    padding: 5px;
+}
